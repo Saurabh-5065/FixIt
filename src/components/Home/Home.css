@@ -1,0 +1,55 @@
+@import "tailwindcss";
+
+@theme{
+/* ----------------------------- CUSTOM COLOR --------------------------------------*/
+    --color-midnight: #121063;
+    --color-tahiti: #3ab7bf;
+    --color-bermuda: #78dcca;
+    --color-brown1 : #ede0d4;
+    --color-brown2 : #e6ccb2;
+    --color-brown3 : #ddb892;
+    --color-brown4 : #b08968;
+    --color-brown6 : #7f5539;
+    --color-brown5: #9c6644;
+    --color-pink1: #ffe2e2;
+    --color-pink2: #FFCCCC;
+    --color-pink3: #FFB8B8;
+    --color-pink3: #eed8b4;
+    --color-pink4 : #FFA3A3;
+    --color-logo-green: #004939;
+    --color-btn-green : #004939;
+    --color-green1: #00613B;
+    --color-orange1: #FF9D23;
+
+    /* ---BACKGROUND COLOR-----*/
+
+    --color-badami1 : #f5e8d3;
+    --color-badami2 : #e8c692;
+    --color-badami3 : #e6c793;
+    --color-badami4 : #a06e22;
+    --color-badami5 : #2f200a;
+    --color-badamidark : #191105;
+    --color-badamidarkl : #474137;
+
+    --color-badami6 : #2a1d09;
+    --color-btn-badami : #3f2c0e;
+
+
+
+/* -----------------------------CUSTOM ANIMATION ----------------------------------*/
+
+--animate-slideup: slideUp 1s ease-out;
+@keyframes slideUp{
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+    
+}
+
+
+}
